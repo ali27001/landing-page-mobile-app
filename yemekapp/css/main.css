@@ -1,0 +1,101 @@
+html,
+body,
+#cover{
+  height: 100%;
+}
+#cover{
+  background: url('../images/red1.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.fixed-top{
+  max-width: 1140px;
+  margin:20px auto;
+
+}
+
+h1{
+  margin-top: 10%;
+  font-family: ‘Droid Serif’, serif;
+color: #fff;
+font-size: 40px;
+font-style: italic;
+margin-bottom: 30px;
+}
+.mobil-image img{
+width: 50%;
+margin-top: 16%;
+float: right;
+}
+
+a.nav-link{
+   font-family: 'Montserrat’, sans-serif;
+   font-size: 14px;
+   color:white! important;
+   transition: color 0.5s ease;
+   -webkit-transition: color 0.5s ease;
+   -mozk-transition: color 0.5s ease;
+   -o-transition: color 0.5s ease;
+
+}
+a.nav-link:hover{
+
+   color:#fed136! important;
+}
+p{
+  color: #fff;
+font-family: 'Rubik', sans-serif;
+font-size: 17px;
+}
+.navbar-brand img{
+  width: 20%;
+}
+.logo img{
+margin-top: 10%;
+width: 40%;
+ }
+ .ios img{
+ margin:auto;
+ }
+
+ #tarif{
+   background: #e74c3c;
+ }
+.orta{
+
+  background-color:#fff;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+.orta form{
+  padding: 20px;
+
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+padding: 10px;
+    width: 500px;
+    height: 250px;
+
+}
